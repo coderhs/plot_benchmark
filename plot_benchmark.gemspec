@@ -5,12 +5,12 @@ require_relative "lib/plot_benchmark/version"
 Gem::Specification.new do |spec|
   spec.name = "plot_benchmark"
   spec.version = PlotBenchmark::VERSION
-  spec.authors = ["TODO: Write your name"]
-  spec.email = ["TODO: Write your email address"]
+  spec.authors = ["Harisankar P S"]
+  spec.email = ["mailme@hsps.in"]
 
-  spec.summary = "TODO: Write a short summary, because RubyGems requires one."
+  spec.summary = "Visualize the results of Benchmark"
   spec.description = "TODO: Write a longer description or delete this line."
-  spec.homepage = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage = "https://hsps.in"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.0.0"
 
