@@ -5,5 +5,6 @@ module PlotBenchmark
 
     results = ::Benchmark.benchmark(*args, &block)
     PlotBenchmark::BarGraph.render(results)
+    results
   end
 end
