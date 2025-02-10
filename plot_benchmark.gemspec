@@ -9,16 +9,16 @@ Gem::Specification.new do |spec|
   spec.email = ["mailme@hsps.in"]
 
   spec.summary = "Visualize the results of Benchmark"
-  spec.description = "TODO: Write a longer description or delete this line."
+  spec.description = "Visualize the results of Benchmark"
   spec.homepage = "https://hsps.in"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.0.0"
 
-  spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
+  # spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
-  spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
+  spec.metadata["source_code_uri"] = "https://github.com/coderhs/plot_benchmark"
+  spec.metadata["changelog_uri"] = "https://github.com/coderhs/plot_benchmark/blob/main/CHANGELOG.md"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
